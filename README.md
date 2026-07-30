@@ -1,11 +1,48 @@
-# SAMAITECH_Project
- Completed 3 tasks of my Data Analyst Internship at SAM AI Technologies!
- I worked with the Zomato Restaurants Dataset(9,551 records) to answer real business questions:
- TASK 4:Restaurant Chains identified restaurant chains and analyzed their rating vs popularity. Surprising findings: Cafe Coffee Day has the most locations(3)but one of the lowest ratings(2.42) while Barbeque Nation has fewer locations(26)but the highest rating(4.35) and highest votes. More branches is not equal to better quality.
- TASK 5: Vote Analysis found a clear positive correction between votes and ratings-restaurants with 1000+ votes average 4.20 rating vs 2.60 for those with under 100 votes. About 11.5% of restaurants had zero votes at all.
- TASK 2: Cuisine Combination North Indian + Chinese is the most common cuisine paring(511 restaurants) but single-cuisine restaurants like American, Italian and Mexican actually rated higher on average than broad multi-cuisine combos.
- TOOLS USED: Microsoft SQL Server(SSMS) for querying aggregation and Python(pandas) for the trickier cuisine-splitting logic.
- BIGGEST LESSON: Always check your sample before trusting an average. I initially found cuisine combos with a perfect 4.9rating, until I realized they were based on just 1 restaurant each!
+## Zomato Restaurant Data Analysis
 
- Thank you to @SAM AL Technologies for this hands-on learning opportunity!
- #SAMAITechnologies #SQL #Python #Internship #Kaggle #DataAnalyst
+**Data Analyst Internship — SAM AI Technologies**
+
+Analysis of 9,551 restaurant listings from the [Zomato Restaurants Dataset](https://www.kaggle.com/datasets/shrutimehta/zomato-restaurants-data) (Kaggle), covering restaurant chain performance, customer engagement, and cuisine trends.
+
+## 🛠️ Tools Used
+- **Microsoft SQL Server (SSMS)** — used for Tasks 4 and 5 (aggregation, grouping, filtering)
+- **Python (pandas, Jupyter Notebook)** — used for Task 2 (cuisine combination analysis)
+- **Microsoft Word** — final report compilation
+
+## 📁 Repository Structure
+```
+├── Task4_Restaurant_Chains/
+│   └── task4_restaurant_chains.sql
+├── Task5_Votes_Analysis/
+│   └── task5_votes_analysis.sql
+├── Task2_Cuisine_Combination/
+│   └── task2_cuisine_combination.ipynb
+├── Zomato_Analysis_Report.docx
+└── README.md
+```
+
+## 📊 Tasks Completed
+
+### Task 4 — Restaurant Chains
+Identified restaurant chains in the dataset and analyzed their ratings and popularity.
+
+**Key finding:** More locations does not mean a higher rating. Cafe Coffee Day (83 locations) has one of the lowest average ratings (2.42), while Barbeque Nation (26 locations) has the highest average rating (4.35) and by far the highest total votes (28,142) among major chains.
+
+### Task 5 — Votes Analysis
+Identified the highest and lowest voted restaurants, and examined the relationship between votes and rating.
+
+**Key finding:** A clear positive correlation exists between votes and rating — average rating rises steadily from 2.60 (1–100 votes) to 4.20 (1,000+ votes). About 11.5% of restaurants (1,094) have zero votes.
+
+### Task 2 — Cuisine Combination
+Identified the most common cuisine combinations and whether certain combinations rate higher.
+
+**Key finding:** North Indian + Chinese is the most common cuisine combination (511 restaurants). However, among combinations with reliable sample sizes (20+ restaurants), single-cuisine offerings like American (3.67), Italian (3.66), and Mexican (3.64) rate higher on average than broad multi-cuisine combinations.
+
+## 📄 Full Report
+See [`Zomato_Analysis_Report.docx`](./Zomato_Analysis_Report.docx) for the complete write-up, including methodology, full data tables, and detailed insights for all three tasks.
+
+## 🔗 Connect
+Feel free to check out my other work and connect with me on [LinkedIn](https://www.linkedin.com/in/chiemerie-okekeze-9a9324248).
+
+---
+*Submitted as part of the SAM AI Technologies Data Analyst Internship Program.*
