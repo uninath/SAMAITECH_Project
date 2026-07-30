@@ -9,17 +9,6 @@ Analysis of 9,551 restaurant listings from the [Zomato Restaurants Dataset](http
 - **Python (pandas, Jupyter Notebook)** — used for Task 2 (cuisine combination analysis)
 - **Microsoft Word** — final report compilation
 
-## 📁 Repository Structure
-```
-├── Task4_Restaurant_Chains/
-│   └── task4_restaurant_chains.sql
-├── Task5_Votes_Analysis/
-│   └── task5_votes_analysis.sql
-├── Task2_Cuisine_Combination/
-│   └── task2_cuisine_combination.ipynb
-├── Zomato_Analysis_Report.docx
-└── README.md
-```
 
 ## 📊 Tasks Completed
 
